@@ -36,10 +36,6 @@ Shopify.Context.initialize({
 
   server.use(
     createShopifyAuth({
-        apiKey: SHOPIFY_API_KEY,
-        secret: SHOPIFY_API_SECRET,
-        accessMode: 'offline',
-        scopes: ['read_products, write_products'],
         afterAuth(ctx) {
         console.log('H ')
         const {shop, accessToken} = ctx.state.shopify;

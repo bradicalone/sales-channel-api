@@ -4,7 +4,7 @@ const MongoDB = require('./db/mongodb')
 require('dotenv').config()
 const cors = require("cors")
 const shopifyRoutes = require('./routes/shopify-routes');
-const client = require('./client');
+// const client = require('./client');
 
 
 // Middleware 
