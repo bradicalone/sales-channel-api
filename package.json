@@ -4,7 +4,7 @@
   "description": "",
   "main": "client.js",
   "scripts": {
-    "start-server": "NODE_ENV=production server.js",
+    "start-server": "NODE_ENV=production node server.js",
     "server": "NODE_ENV=development nodemon server.js",
     "start-client": "NODE_ENV=production node client.js",
     "dev": "NODE_ENV=development nodemon client.js",
