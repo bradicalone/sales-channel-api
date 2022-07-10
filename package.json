@@ -4,8 +4,9 @@
   "description": "",
   "main": "client.js",
   "scripts": {
+    "start-server": "NODE_ENV=production server.js",
     "server": "NODE_ENV=development nodemon server.js",
-    "start": "NODE_ENV=production node client.js",
+    "start-client": "NODE_ENV=production node client.js",
     "dev": "NODE_ENV=development nodemon client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
